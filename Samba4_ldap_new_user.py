@@ -4,8 +4,8 @@ import ldb
 import os, shutil
 import sys
 import stat, pwd
-from connect_ldap import Ldap
-
+from Samba4_connect_to_ldap import Ldap
+    
 ldap = Ldap()
 ldap.connect()
 
